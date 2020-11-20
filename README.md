@@ -5,3 +5,5 @@
 - Le site doit être assez moderne
 
 - Une administration doit être mise en place pour ajouter des produits sur le site. Faire en sorte de ne pas toucher au code pour ajouter quelque chose.
+
+- Le design doit être assez similaire sur toutes les pages
