@@ -29,7 +29,7 @@
     </div>
 
     <header class="header">
-        <img src="../img/banner.jpg" width="100%">
+       
     </header>
 </body>
 
