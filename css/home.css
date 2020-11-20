@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+.navbar-logo {
+  float: left;
+}
+
+.navbar ul li a {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.navbar-left a {
+  color: black;
+}
+
+.navbar-left a:hover {
+  color: #bebebe;
+  text-decoration: underline;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.navbar-right a {
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+.link-inscription {
+  border: solid 3px black;
+  color: black;
+}
+
+.link-inscription:hover {
+  border: solid 3px black;
+  background-color: black;
+  color: white;
+}
+
+.link-connect {
+  color: white;
+  background-color: black;
+  border: solid 3px black;
+}
+
+.link-connect:hover {
+  color: black;
+  background-color: white;
+  border: solid 3px black;
+}
+g
