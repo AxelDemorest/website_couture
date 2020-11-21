@@ -23,7 +23,7 @@
         <div class="navbar-right">
             <ul>
                 <li><a class="link-inscription" href="./signUp.html">S'inscire</a></li>
-                <li><a class="link-connect" href="#">Se connecter</a></li>
+                <li><a class="link-connect" href="./signIn.html">Se connecter</a></li>
             </ul>
         </div>
     </div>
