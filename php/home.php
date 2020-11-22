@@ -33,7 +33,12 @@
     </div>
 
     <header class="header">
-        
+        <div class="header-menu">
+            <img src="../img/cat.png" width="200px">
+            <h1 class="header-title">La patte d'alex</h1>
+            <p class="header-slogan">Des petits gestes pour un grand avenir</p>
+        </div>
+
     </header>
 </body>
 

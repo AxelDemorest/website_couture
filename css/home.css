@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 
 * {
   margin: 0;
@@ -22,6 +23,7 @@ a {
   left: 0;
   height: 66px;
   border-bottom: solid 1px #dedede;
+  z-index: 1000;
 }
 
 .navbar ul {
@@ -131,4 +133,49 @@ a {
 .search-bar-navbar i {
   padding: 0 15px;
   color: #8f9294;
+}
+
+.header {
+  margin-top: 66px;
+  width: 100%;
+  height: 30em;
+  border-bottom: solid 1px #dedede;
+  /*background: no-repeat center center/cover url(../img/accueil-img.jpg);*/
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.header img {
+  border: solid 3px #8f9294;
+  border-radius: 5em;
+  transition: all 0.3s ease-in-out;
+  margin-top: 4em;
+}
+
+.header img:hover {
+  border: solid 3px #edc9f4;
+  opacity: 0.8;
+}
+
+.header-title {
+  font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 1em;
+  font-size: 45px;
+  color: #3E3E3E;
+}
+
+.header-slogan {
+  font-family: "Varela Round", sans-serif;
+  margin-top: 1em;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #636363;
 }
