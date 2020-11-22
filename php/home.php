@@ -11,25 +11,29 @@
 
 <body>
     <div class="navbar">
-        <div class="navbar-left">
-            <img class="navbar-logo" src="../img/cat.png" width="8%">
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Présentation</a></li>
-                <li><a href="#">Produits</a></li>
-            </ul>
-        </div>
+        <ul class="list-left-navbar">
+            <li><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
+            <li><a href="#"><i class="fa fa-image"></i>Produits</a></li>
+            <li><a href="#"><i class="fa fa-shopping-bag"></i>Panier</a></li>
+            <li><a id="" href="#"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
+            <li><a id="" href="#"><i class="fa fa-user"></i>Se connecter</a></li>
+        </ul>
 
-        <div class="navbar-right">
-            <ul>
-                <li><a class="link-inscription" href="./signUp.html">S'inscire</a></li>
-                <li><a class="link-connect" href="./signIn.html">Se connecter</a></li>
-            </ul>
-        </div>
+        <ul class="list-right-navbar">
+            <li><a href="https://www.instagram.com/la_patte_d_alex/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/lapattedalex" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+        </ul>
+
+        <form class="container-search-bar">
+            <div class="search-bar-navbar">
+                <i class="fa fa-search"></i>
+                <input type="text" name="search" placeholder="Votre recherche...">
+            </div>
+        </form>
     </div>
 
     <header class="header">
-       
+        
     </header>
 </body>
 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 * {
   margin: 0;
@@ -7,8 +7,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background: url('../img/accueil-img.jpg');
+  font-family: "Varela Round", sans-serif;
 }
 
 a {
@@ -16,64 +15,120 @@ a {
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 66px;
+  border-bottom: solid 1px #dedede;
 }
 
 .navbar ul {
   display: flex;
   align-items: center;
   height: 100%;
+  padding-left: 2em;
+}
+
+.navbar .list-left-navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  float: left;
+  padding-left: 2em;
+}
+
+.navbar .list-right-navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  float: right;
+  padding-left: 2em;
+}
+
+.navbar li {
   list-style: none;
 }
 
-.navbar-logo {
-  float: left;
+.list-left-navbar li {
+  position: relative;
+  padding: 2em;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
-.navbar ul li a {
-  padding: 15px;
-  font-size: 18px;
+.list-left-navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #edc9f4;
+  transform: scaleX(0);
+  transition: 0.3s ease-in-out;
 }
 
-.navbar-left a {
-  color: black;
+.list-left-navbar a:hover::after {
+  transform: scaleX(1);
 }
 
-.navbar-left a:hover {
-  color: #bebebe;
-  text-decoration: underline;
+.navbar a {
+  font-weight: bold;
+  color: #8f9294;
 }
 
-.navbar-right {
-  margin-right: 10px;
+.navbar a:hover {
+  color: #edc9f4;
 }
 
-.navbar-right a {
-  margin: 0 5px;
-  border-radius: 3px;
+.list-left-navbar i {
+  margin-right: 5px;
 }
 
-.link-inscription {
-  border: solid 3px black;
-  color: black;
+.list-right-navbar {
+  margin-right: 2em;
 }
 
-.link-inscription:hover {
-  border: solid 3px black;
-  background-color: black;
-  color: white;
+.list-right-navbar a {
+  font-size: 20px;
+  padding: 0 10px;
+  color: #8f9294;
 }
 
-.link-connect {
-  color: white;
-  background-color: black;
-  border: solid 3px black;
+.container-search-bar {
+  float: right;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.link-connect:hover {
-  color: black;
+.search-bar-navbar {
+  padding: 5px;
+  border-radius: 5px;
   background-color: white;
-  border: solid 3px black;
+  transition: all 0.3s ease-out;
+  border: solid 2px white;
+}
+
+.search-bar-navbar:hover {
+  border: solid 2px #edc9f4;
+  border-radius: 20px;
+}
+
+.navbar input[type="text"] {
+  font-size: 13px;
+  border: none;
+  font-family: "Varela Round", sans-serif;
+}
+
+.navbar input:focus {
+  outline: 0;
+}
+
+.search-bar-navbar i {
+  padding: 0 15px;
+  color: #8f9294;
 }
