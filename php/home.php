@@ -38,8 +38,53 @@
             <h1 class="header-title">La patte d'alex</h1>
             <p class="header-slogan">Des petits gestes pour un grand avenir</p>
         </div>
-
     </header>
+
+    <div class="under-header-img"></div>
+
+    <div class="website-container-presentation">
+        <div class="first-bloc-presentation">
+            <h1 class="first-bloc-presentation-title">Ma présentation</h1>
+            <div class="first-bloc-presentation-content">
+                <img src="../img/pet-care.png" width="100px">Je me présente, Alexandra, <span class="strong-word">créatrice couturière</span>. J’ai longtemps hésité à me lancer dans cette aventure qu’est l’entreprise. Je suis fière de vous présenter <span class="strong-word">« La Patte d’Alex »</span>. Mais.. pourquoi ce nom et ce logo ? Vous l’aurez deviné, j’adore les chats, il y en a toujours eu dans ma vie. Donc lors de ma réflexion pour le nom de ma boutique, il fallait obligatoirement que le chat impose sa présence. C'est comme ça que « La Patte d’Alex » est née !
+                <span class="strong-word">J’aime créer et coudre</span>, relier les deux était une évidence.
+                J’était partie sur plusieurs projets mais je me suis finalement orientée vers le <span class="strong-word">« Zéro Déchet »</span>, une des problématiques du monde d'aujourd’hui.
+                Je ne prétends pas vouloir changer le monde, <span class="strong-word">mais y participer à mon échelle.</span>
+                Et j’aime à penser que les petits gestes du quotidien peuvent avoir une portée bien plus grande qu’il n’y paraît.
+                Certains de mes accessoires ont été <span class="strong-word">pensés et testés avec une amie esthéticienne</span>. Elle les utilise tous les jours dans son institut. Je suis fière d’avoir partagé cette aventure avec toi. Cette collaboration m’a beaucoup apporté. Merci, je sais que tu te reconnaîtras.
+                Voilà qui je suis et pourquoi je vous propose dans ma boutique des accessoires « Zéro Déchet » pour votre quotidien. Ils sont pensés pour vous aider dans votre démarche. Pour aller plus loin qu’une pensée, <span class="strong-word">vers une petite action qui deviendra grande.</span>
+                Mes articles sont <span class="strong-word">pensés et confectionnés avec soins</span>. Vous y trouverez toujours « la patte d’Alex ».
+            </div>
+        </div>
+    </div>
+
+    <div class="why-website-container">
+        <div class="why-website-content">
+            <h1>Pourquoi choisir La Patte d'alex ?</h1>
+            <div class="row-content">
+                <div class="card-content">
+                    <img src="../img/eco.png" width="90px">
+                    <h2>Le « Zéro Déchet »</h2>
+                    <hr>
+                    <p>Les articles sont crées pour favoriser le « Zéro Déchet ». En achetant ces produits, vous participez également à ce mouvement ! Fini les produits qui abîment la planète !</p>
+                </div>
+                <div class="card-content">
+                <img src="../img/sewing-machine.png" width="90px">
+                    <h2>Pensés avec soin</h2>
+                    <hr>
+                    <p>Mes produits sont pensés et crées avec soins. Je prends le temps de réfléchir à ce qui pourrait être le mieux concernant le produit.</p>
+                </div>
+                <div class="card-content">
+                <img src="../img/shield.png" width="90px">
+                    <h2>Qualité des produits</h2>
+                    <hr>
+                    <p>Tous les produits vendus sont certifiés de qualité.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
 
 </html>

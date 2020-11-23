@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
 * {
   margin: 0;
@@ -24,6 +25,7 @@ a {
   height: 66px;
   border-bottom: solid 1px #dedede;
   z-index: 1000;
+  background-color: white;
 }
 
 .navbar ul {
@@ -140,6 +142,7 @@ a {
   width: 100%;
   height: 30em;
   border-bottom: solid 1px #dedede;
+  z-index: 2;
   /*background: no-repeat center center/cover url(../img/accueil-img.jpg);*/
 }
 
@@ -163,12 +166,12 @@ a {
 }
 
 .header-title {
-  font-family: 'Vidaloka', serif;
+  font-family: "Vidaloka", serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-top: 1em;
   font-size: 45px;
-  color: #3E3E3E;
+  color: #3e3e3e;
 }
 
 .header-slogan {
@@ -179,3 +182,137 @@ a {
   letter-spacing: 5px;
   color: #636363;
 }
+
+.under-header-img {
+  background: no-repeat center center/cover url(../img/accueil-img.jpg);
+  height: 20em;
+  border-bottom: solid 1px #dedede;
+}
+
+.website-container-presentation {
+  background-color: white;
+  height: 110vh;
+}
+
+.first-bloc-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.first-bloc-presentation-title {
+  /*font-family: "Amatic SC", cursive;*/
+  font-family: "Vidaloka", serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 1em;
+  letter-spacing: 6px;
+  font-size: 45px;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  background-color: #3e3e3e;
+}
+
+.first-bloc-presentation-content {
+  text-align: center;
+  width: 70%;
+  margin-top: 5.5em;
+  line-height: 35px;
+  font-size: 20px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  padding: 2em;
+  border-radius: 20px;
+}
+
+.first-bloc-presentation-content img {
+  float: left;
+  margin-right: 15px;
+}
+
+.strong-word {
+  color: #8bbd77;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.why-website-container {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.why-website-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why-website-content h1 {
+  font-family: "Vidaloka", serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 1em;
+  letter-spacing: 6px;
+  font-size: 45px;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  background-color: #3e3e3e;
+}
+
+.row-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 13em;
+  width: 80%;
+  height: 30em;
+  background-color: white;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  padding: 20px;
+  border-radius: 2em;
+  transition: transform .2s;
+}
+
+.card-content:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.card-content img {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.card-content hr {
+  height: 2px;
+  background-color: #3e3e3e;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 1em;
+}
+
+.card-content p {
+  line-height: 1.5em;
+}
+
