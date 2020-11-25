@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/home-responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>La patte d'alex</title>
 </head>
 
 <body>
-    <div class="navbar">
+    <div id="navbar" class="navbar">
+        <a class="icon"></a>
         <ul class="list-left-navbar">
-            <li><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
-            <li><a href="#"><i class="fa fa-image"></i>Produits</a></li>
-            <li><a href="#"><i class="fa fa-shopping-bag"></i>Panier</a></li>
-            <li><a id="" href="#"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
-            <li><a id="" href="#"><i class="fa fa-user"></i>Se connecter</a></li>
+            <li><a class="icon-toggle-nav" href="#"><i class="fa fa-bars"></i></a></li>
+            <li class="link-list-left-navbar"><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
+            <li class="link-list-left-navbar"><a href="#"><i class="fa fa-image"></i>Produits</a></li>
+            <li class="link-list-left-navbar"><a href="#"><i class="fa fa-shopping-bag"></i>Panier</a></li>
+            <li class="link-list-left-navbar"><a href="#"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
+            <li class="link-list-left-navbar"><a href="#"><i class="fa fa-user"></i>Se connecter</a></li>
         </ul>
 
         <ul class="list-right-navbar">
@@ -97,7 +100,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>

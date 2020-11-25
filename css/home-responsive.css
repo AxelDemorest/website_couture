@@ -1,0 +1,22 @@
+@media screen and (max-width: 1090px) {
+  .container-search-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .navbar .list-right-navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+    .navbar .link-list-left-navbar:not(:first-child) {
+        position: fixed;
+        left: 0;
+        top: 66px;
+        height: 100%;
+        background: red;
+        width: 100px;
+    }
+  }

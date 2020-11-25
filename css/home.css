@@ -19,7 +19,6 @@ a {
 .navbar {
   position: fixed;
   top: 0;
-  bottom: 0;
   right: 0;
   left: 0;
   height: 66px;
@@ -63,7 +62,11 @@ a {
   font-size: 13px;
 }
 
-.list-left-navbar a::after {
+.list-left-navbar li:first-child {
+  font-size: 20px;
+}
+
+.link-list-left-navbar a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -75,7 +78,7 @@ a {
   transition: 0.3s ease-in-out;
 }
 
-.list-left-navbar a:hover::after {
+.link-list-left-navbar a:hover::after {
   transform: scaleX(1);
 }
 
@@ -347,3 +350,6 @@ a {
 .list-footer a {
   color: white;
 }
+
+/*--------------------------*/
+
