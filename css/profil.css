@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+a {
+    font-family: "Varela Round", sans-serif;
+    text-decoration: none;
+}
+
+.profil-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-account-content {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px 0 30px 0;
+}
+
+.account-side {
+    width: 35%;
+    padding-right: 30px;
+}
+
+.account-side a {
+    color: black;
+    font-size: 17px;
+}
+
+.account-side i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.account-side-heading {
+    padding: 30px;
+}
+
+.account-side-body {
+    margin-top: 5px;
+}
+
+.account-side-body-div {
+    padding: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+    border-left: 3px solid #8f9294;
+}
+
+.account-side hr {
+    border: none;
+    height: 2px;
+    background-color: #dedede;
+    margin-top: 5px;
+}
+
+.account-main {
+    background-color: red;
+    height: 20px;
+    width: 30%;
+    margin-top: 20px;
+}
